@@ -11,7 +11,7 @@ export default class HomePage extends Component {
                     <Link to="/QuickBill/dashboard" className="solid-btn">Create Invoice</Link>
                     <h4>No signup required</h4>
                 </div>
-                <div className="home__banner home__banner--footer">
+                {/* <div className="home__banner home__banner--footer">
                     <h4>Star this project on Github</h4>
                     <div className="github-buttons">
                         <a className="github-button"
@@ -34,7 +34,7 @@ export default class HomePage extends Component {
                     </div>
 
                     <a href="mailto:groove67@gmail.com" className="solid-btn"><i className="fa fa-envelope" aria-hidden="true"></i>Hire me!</a>
-                </div>
+                </div> */}
             </div>
         );
     }
